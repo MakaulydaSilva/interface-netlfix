@@ -23,6 +23,7 @@
 body {
     background: var(--cor05);
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
   
 }
 
@@ -37,7 +38,7 @@ header .container {
 .logo {
    font-family: var(--fonte-titulo);
    color: var(--cor01);
-   font-size: 40px;
+   font-size: 50px;
 }
   
 header nav a {
@@ -48,5 +49,28 @@ header nav a {
 
 header nav a:hover {
     color: white;
+}
+
+.imagem-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../img/st-capa.jpg');
+
+    height:  400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.imagem-principal .descricao {
+
+    margin-bottom: 30px ;
+}
+
+.titulo {
+    font-size: 30px;
 }
     
