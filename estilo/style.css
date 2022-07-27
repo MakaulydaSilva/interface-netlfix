@@ -4,13 +4,14 @@
 
 :root {
 
-    --cor01:  #D91828;
-    --cor02:  #A60303;
-    --cor03:  #400101;
-    --cor04:  #260101;
-    --cor05:  #0D0000;
+    --cor01: #D91828;
+    --cor02: #A60303;
+    --cor03: #400101;
+    --cor04: #260101;
+    --cor05: #0D0000;
 
-    --fonte-titulo: 'Permanent Marker', cursive;;
+    --fonte-titulo: 'Permanent Marker', cursive;
+    ;
 }
 
 * {
@@ -24,7 +25,7 @@ body {
     background: var(--cor05);
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-  
+
 }
 
 header .container {
@@ -36,41 +37,80 @@ header .container {
 }
 
 .logo {
-   font-family: var(--fonte-titulo);
-   color: var(--cor01);
-   font-size: 50px;
+    font-family: var(--fonte-titulo);
+    color: var(--cor01);
+    font-size: 50px;
+    padding: 20px;
 }
-  
+
 header nav a {
     text-decoration: none;
     color: #AAA;
-    margin-right: 10px ;
+    margin-right: 10px;
 }
 
 header nav a:hover {
     color: white;
 }
 
-.imagem-principal{
-    font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../img/st-capa.jpg');
 
-    height:  400px;
+
+.imagem-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('../img/st-capa.jpg');
+
+    height: 400px;
     background-size: cover;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    
 
 }
 
 .imagem-principal .descricao {
 
-    margin-bottom: 30px ;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    padding: 20px;
 }
 
 .titulo {
     font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+    padding: 20px;
 }
-    
+
+.botao {
+    background-color: #a603038c;
+    border: none;
+    color: white;
+    padding: 10px;
+    margin-right: 12px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 1.5s ease all;
+
+
+}
+
+.botao:hover {
+    background-color: var(--cor02);
+    color: black;
+}
+
+.botao i {
+    margin-right: 7px;
+}
+
+.container {
+    margin-left: 20px;
+}
+.imagem-principal .container {
+
+    width: 60%;
+}
+
