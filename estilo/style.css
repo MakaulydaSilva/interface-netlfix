@@ -39,14 +39,15 @@ header .container {
 .logo {
     font-family: var(--fonte-titulo);
     color: var(--cor01);
-    font-size: 50px;
+    font-size: 60px;
     padding: 20px;
 }
 
 header nav a {
     text-decoration: none;
     color: #AAA;
-    margin-right: 10px;
+    margin-right: 30px;
+    
 }
 
 header nav a:hover {
@@ -59,7 +60,7 @@ header nav a:hover {
     font-size: 16px;
     background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('../img/st-capa.jpg');
 
-    height: 400px;
+    width: 100%;
     background-size: cover;
 
     display: flex;
@@ -72,16 +73,16 @@ header nav a:hover {
 
 .imagem-principal .descricao {
 
-    margin-bottom: 30px;
-    margin-top: 10px;
-    padding: 20px;
+   margin-top: 10px;
+   margin-bottom: 40px;
 }
 
 .titulo {
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-bottom: 20px;
     padding: 20px;
+
 }
 
 .botao {
@@ -95,6 +96,16 @@ header nav a:hover {
     transition: 1.5s ease all;
 
 
+}
+
+
+
+p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
 }
 
 .botao:hover {
@@ -120,3 +131,10 @@ header nav a:hover {
     display: block;
 }
 
+.carrosel {
+
+    margin-top: 50px;
+}
+
+
+    
