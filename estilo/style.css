@@ -136,5 +136,27 @@ p {
     margin-top: 50px;
 }
 
+footer {
+
+   padding: 5px;
+   background-color: black; 
+    
+}
+
+footer p {
+    text-align: center;
+ 
+}
+
+footer p > a {
+   
+    text-decoration: none;
+    color: white;
+}
+
+footer p > a:hover {
+
+    background-color: #A60303;
+}
 
     
